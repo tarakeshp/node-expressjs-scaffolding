@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('includes/header'); %>
+
+</html>
+
+<body>
+    <!-- include navbar -->
+    <%- include('includes/navbar'); %>
+    <!-- include navbar ends-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-lg-4 offset-xl-4 col-lg-4 col-xl-4 col-md-12 col col-sm-12">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Requesting Host</td>
+                            <td>
+                                <%= requesting_host  %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Server Time</td>
+                            <td>
+                                <%= server_time  %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Name</td>
+                            <td>
+                                <%= server_name  %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Environment</td>
+                            <td>
+                                <%= environment  %>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</body>

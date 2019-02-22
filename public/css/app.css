@@ -1,0 +1,71 @@
+.navbar{
+    background-color:black;
+}
+
+img.logo{
+    height: 60px;
+    margin-top: -18px;
+}
+li.btn-login{
+    background-color:#e64c2e;
+}
+li.btn-login a{
+    color:black;
+    text-transform: uppercase;
+}
+a.username {
+    color:#d55ae8 !important;
+}
+
+body.portal{
+    background-image: url("https://icrypto-cdn.s3.amazonaws.com/demo/oidc/cellc-main.png");
+    background-repeat: no-repeat;
+    background-color: #1b1018;
+    background-size: cover;
+    background-color: #1b1018;
+    background-position-y: 55px;
+}
+body.portal-post-logon{
+    background-image: url("https://icrypto-cdn.s3.amazonaws.com/demo/oidc/cellc-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1b1018;
+}
+
+body.application{
+    background-image: url("https://icrypto-cdn.s3.amazonaws.com/demo/oidc/app-main.png");
+    background-repeat: no-repeat;
+    background-color: #1b1018;
+    background-size: cover;
+    background-color: #1b1018;
+    background-position-y: 55px;
+}
+body.application-post-logon{
+    background-image: url("https://icrypto-cdn.s3.amazonaws.com/demo/oidc/app-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1b1018;
+}
+
+.login-section{
+    margin-top: -10px;
+}
+.login-section .panel{
+    opacity: 0.9;
+    background-color: #3b1a40 !important;
+    color: white;
+    border-radius: 10px !important;
+    border: solid 2px #c14fca;
+    overflow: auto;
+}
+.login-section .panel-footer{
+    background: transparent;
+    border: none;
+}
+
+#signup-form{
+    padding: 50px;
+    background: #65136c;
+    color: white;
+    opacity: 0.9;
+}
